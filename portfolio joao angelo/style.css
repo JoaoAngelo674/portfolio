@@ -1,0 +1,125 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121214;
+    color: #e1e1e6;
+    max-width: 800px; 
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #e1306c;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+h1:hover {
+    color: #2ea44f;
+}
+
+.subtitulo {
+    color: #e1306c;
+    font-size: clamp(1.2rem, 4vw, 1.6rem);
+    margin-top: 40px;
+    transition: color 0.3s ease;
+}
+
+.subtitulo:hover {
+    color: #2ea44f;
+}
+
+p {
+    font-size: clamp(1rem, 3vw, 1.15rem);
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.texto-redes {
+    font-size: 1rem;
+    color: #8b8d99;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.tags-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: #202024;
+    color: #e1e1e6;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid #e1306c;
+    transition: border-color 0.3s ease;
+}
+
+.tag:hover {
+    border-color: #2ea44f;
+}
+
+.botoes-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-instagram, .btn-github {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    min-width: 140px;
+}
+
+.btn-instagram {
+    background-color: #e1306c;
+}
+
+.btn-instagram:hover {
+    background-color: #2ea44f;
+    transform: translateY(-3px);
+}
+
+.btn-github {
+    background-color: #e1306c;
+}
+
+.btn-github:hover {
+    background-color: #2ea44f;
+    transform: translateY(-3px);
+}
+
+.texto-email {
+    font-size: 0.95rem;
+    color: #ffffff;
+    margin-top: 40px;
+    word-wrap: break-word;
+}
+
+.texto-email a {
+    color: #e1306c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.texto-email a:hover {
+    color: #2ea44f;
+}
